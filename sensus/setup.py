@@ -8,4 +8,12 @@ setup(name='sensus',
       author_email='eren.asena@student.uva.nl',
       license='MIT',
       packages=['sensus'],
-      zip_safe=False)
+      zip_safe=False,
+      classifiers=[
+        "Programming Language :: Python :: 3.7.6",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"
+      ],
+      python_requires='>=3.6',
+      packages=setuptools.find_packages(),
+     )
