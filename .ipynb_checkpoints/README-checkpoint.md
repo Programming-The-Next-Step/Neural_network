@@ -1,7 +1,7 @@
 # Neural Networks 
 
-**'sensus' is the name of my package. It means 'perception' or 'sense' in Latin. It was the only name I could 
-come up with that was both relatable to neural networks and was unique among Python packages. The code is in the package folder.**
+***'sensus' is the name of my package. It means 'perception' or 'sense' in Latin. It was the only unique package name I could 
+come up with that was both relatable to neural networks and was unique among Python packages. The code is in the package folder. ***
 
 *In this project, I want to build a neural network that can recognize handwritten digits, using Python. The functions involved in a simple neural network are clear and the training data are available online. For the functions to make sense, I wrote a brief description of how a neural network works. I should be able to finish this on time and I do not know what I can cut if I run out of time. If anything is left out from the structure I explained below, it will not work. If I have time left, I will build a Shiny app that shows the effect of drift in Brownian motion simulations.*
 
