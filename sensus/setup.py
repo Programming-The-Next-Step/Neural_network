@@ -15,5 +15,13 @@ setup(name='sensus',
         "Operating System :: OS Independent"
       ],
       python_requires='>=3.6',
-      packages=setuptools.find_packages(),
+      install_requires=[
+          'numpy'
+      ],
+      dependency_links=['https://github.com/python/cpython/blob/3.8/Lib/gzip.py',
+                       'https://github.com/python/cpython/blob/3.8/Lib/os.py',
+                       'https://github.com/python/cpython/blob/3.8/Lib/random.py',
+                       'https://github.com/python/cpython/blob/3.8/Lib/urllib/request.py'],
+      test_suite='nose.collector',
+      tests_require=['nose']
      )
