@@ -75,10 +75,4 @@ between 0-9 which the network will classify.
 The book loops over the training examples in a mini-batch to compute the gradients. This package uses a matrix based approach adapted from Hindi Sellouk's code to speed up the process. In the original version of the code, a mini-batch is created by randomly sampling a certain number of training examples. The gradients are computed by propagating the activations forward and the error term backwards for each training example in the mini-batch, one by one. This process requires as many iterations as there are training examples in the mini-batch because the weight matrix is multiplied with the activation vector of each example in the mini-batch. 
 Instead, the matrix approach stores all the activation vectors as the columns of a second matrix. This matrix is then multiplied with the weight matrix to feedforward all the training examples in the mini-batch simultaneously. Backpropagation works in a similar fashion. 
 
-**I have adapted the code to Python 3.x (it was coded in Python 2.x)**
-
-**A few additions have been made to make testing easier:**
-
-**I have tried to make the code easier on the eye.** 
-
-
+I have adapted the code to Python 3.x (it was coded in Python 2.x) and a few additions have been made to make testing easier. Also, I have tried to make the code easier on the eye.
