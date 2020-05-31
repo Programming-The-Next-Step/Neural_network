@@ -34,4 +34,4 @@ def test_backprop():
     
 def test_SGD():
     s = net.SGD(training_data = training_data, epochs = 30, mini_batch_size = 10, eta = 3.0, test_data = test_data)
-    isinstance(s, tuple) and len(s[0]) == s[1] # the output is a tuple. The first element is the vector of correct classifications. The second element is the number of epochs. The two must be equal. 
+    assert isinstance(s, tuple) and len(s[0]) == s[1] # the output is a tuple. The first element is the vector of correct classifications. The second element is the number of epochs. The two must be equal. 
